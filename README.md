@@ -1,7 +1,7 @@
 ![Story Point Calculator](/resources/screenshot.png "Story Point Calculator")
 
 # Story Point Calculator
-Lightweight web app to enable an individual or team to estimate increments of work consistently over time, considering their interpretation of complexity & time required.
+Use this to estimate agile story points easier.
 
 ## How to run
 1. Download the latest "Story_Point_Calculator-release.zip" from the [release](https://github.com/JonVojtush/Story_Point_Calculator/releases "Latest Releases") page
