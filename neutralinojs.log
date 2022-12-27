@@ -1,7 +1,0 @@
-INFO 2022-12-26 20:09:06,918 Auth info was exported to ./.tmp/auth_info.json api\debug\debug.cpp:17 jonat@LAPTOP-NV4L7M0R
-ERROR 2022-12-26 20:09:08,949 NE_RS_UNBLDRE: Unable to load application resource file /resources/styles.css api\debug\debug.cpp:20 jonat@LAPTOP-NV4L7M0R
-INFO 2022-12-26 20:10:59,589 Auth info was exported to ./.tmp/auth_info.json api\debug\debug.cpp:17 jonat@LAPTOP-NV4L7M0R
-INFO 2022-12-26 20:12:22,737 Auth info was exported to ./.tmp/auth_info.json api\debug\debug.cpp:17 jonat@LAPTOP-NV4L7M0R
-INFO 2022-12-26 20:15:17,409 Auth info was exported to ./.tmp/auth_info.json api\debug\debug.cpp:17 jonat@LAPTOP-NV4L7M0R
-INFO 2022-12-26 20:17:15,109 Auth info was exported to ./.tmp/auth_info.json api\debug\debug.cpp:17 jonat@LAPTOP-NV4L7M0R
-INFO 2022-12-26 20:29:38,428 Auth info was exported to ./.tmp/auth_info.json api\debug\debug.cpp:17 jonat@LAPTOP-NV4L7M0R
