@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Agile Estimation Calculator</title>
+		<meta name="description" content="The Story Point Calculator is a lightweight web app to enable an individual or team to estimate increments of work consistently over time considering their interpretation of complexity & time required.">
+		<meta name="author" content="Jonathan Vojtush">
+		<meta name="keywords" content="Agile, Estimate, Calculator, Story Point, Complexity, Time">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+	<body>
+		<div class="container">
+			<form>
+				<div class="row">
+					<legend>Complexity</legend>
+					<div class="col">
+						<input id="complexity-easy" type="radio" value="1" name="complexity" aria-label="Easy level of complexity" checked><br />
+						<label for="complexity-easy" class="form-label">Easy</label>
+					</div>
+					<div class="col">
+						<input id="complexity-moderate" type="radio" value="2" name="complexity" aria-label="Moderate level of complexity"><br />
+						<label for="complexity-moderate" class="form-label">Moderate</label>
+					</div>
+					<div class="col">
+						<input id="complexity-difficult" type="radio" value="3" name="complexity" aria-label="Difficult level of complexity"><br />
+						<label for="complexity-difficult" class="form-label">Difficult</label>
+					</div>
+				</div>
+				&nbsp;
+				<div class="row">
+					<legend>Time</legend>
+					<div class="col">
+						<input id="time-day" type="radio" value="1" name="time" aria-label="1 day or less of effort" checked><br />
+						<label for="time-day" class="form-label">1 Day or Less</label>
+					</div>
+					<div class="col">
+						<input id="time-week" type="radio" value="2" name="time" aria-label="2 - 5 days of effort"><br />
+						<label for="time-week" class="form-label">2-5 Days</label>
+					</div>
+					<div class="col">
+						<input id="time-bi" type="radio" value="4" name="time" aria-label="1 - 2 weeks of effort"><br />
+						<label for="time-bi" class="form-label">1-2 Weeks</label>
+					</div>
+					<div class="col">
+						<input id="time-month" type="radio" value="6" name="time" aria-label="2 weeks - 1 month of effort"><br />
+						<label for="time-month" class="form-label">2-4 Weeks</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<a id="total"><span id="value"></span><span id="label"></span></a><br />
+					</div>
+				</div>
+			</form>
+		</div>
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
