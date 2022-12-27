@@ -9,4 +9,3 @@ Lightweight web app to enable an individual or team to estimate increments of wo
 3. In the un-extracted folder, determine which executable to run for your operating system (Win, Mac, Linux)
 4. Double click that program to run (resources.neu & WebView2Loader.dll must remain in that folder with the executable to run)
 5. If a firewall app like Microsoft Defender pops up, allow the app to run
-
