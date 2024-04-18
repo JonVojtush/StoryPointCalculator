@@ -1,6 +1,6 @@
-<div style="text-align: center;">
-  <img src="screenshot.png" alt="Story Point Calculator" width="50%" style="border-radius: 20px;"/>
-</div>
+<p align="center">
+  <img src="screenshot.png" alt="Story Point Calculator" width="50%"/>
+</p>
 
 # Story Point Calculator
 
